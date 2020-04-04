@@ -7,6 +7,6 @@ let vapID = {
 
 push.setVapidDetails('mailto:example@ff.com', vapID.publicKey, vapID.privateKey)
 
-let sub = {}
+let sub = {"endpoint":"https://fcm.googleapis.com/fcm/send/fdahsj1Y4Bs:APA91bHxjYpV2wPIxv5nmsmM4_qZaqgaEyyYJHFjnf7dR2wbBIrcZXyhhKbLg-RxxHU1JdyXdr-GGYMvQQ_XM-oaN4JY82MsCFMeyDF1vcfweD7c3VEXyX-aLnsONFyrjaZKcgyulu1U","expirationTime":null,"keys":{"p256dh":"BKTvxy_KHBBESA6gUaDRjHRmUy2QSLQ1AsaJprdgcF42UJyS2eppWQGewYYMwbrXaqyyIitUwVUAimJdk1acZ-4","auth":"CkRIf35CKFSu6PURIrHxRg"}}
 
 push.sendNotification(sub, 'test message')
